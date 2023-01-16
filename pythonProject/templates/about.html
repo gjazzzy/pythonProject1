@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">-->
+<!--        <meta content="utf-8" http-equiv="encoding">-->
+<!--        <meta charset="utf-8">-->
+<!--        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+<!--        <meta name="theme-color" content="#000000">-->
+<!--        <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">-->
+        <link href="{{ url_for('static',filename='css/custom.css')}}" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrap">
+                <h1> {{ title }} </h1>
+                <h1> всегда {{ title }} </h1>
+                <a href="#" class="header__logo"><img src="/image/icon.svg/logo.svg" alt="#"></a>
+                
+                <div class="header__nav">
+                    <a href="#" class="header__item-link">Presets</a>
+                    <a href="#" class="header__item-link">Prints</a>
+                    <a href="#" class="header__item-link">Store</a>
+                    <a href="#" class="header__item-link">About</a>
+                    <a href="#" class="header__item-link">Contact</a>
+
+                    <button class="header__button button">
+                        <img src="image/icon.svg/cart.svg" alt="#" class="header__button-img">
+                        <span class="header__button-text">Cart</span>
+                        <span class="header__button__counter">0</span>
+                    </button>
+                </div>
+                <!-- /.header__nav -->
+            </div>
+            <!-- /.header__wrap -->
+        </div>
+        <!-- /.container -->
+    </header>
+    </body>
+</html>
